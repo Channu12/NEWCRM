@@ -9,6 +9,9 @@ public class DemoTest {
 	{
 		System.out.println("====Hi...====");
                 System.out.println("====Helllo...====");
+		System.out.println("====Hi...====");
+                System.out.println("====Helllo...====");
+
 
 	}
 }
