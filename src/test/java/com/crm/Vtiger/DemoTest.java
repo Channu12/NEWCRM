@@ -4,8 +4,8 @@ import org.testng.annotations.Test;
 
 public class DemoTest {
 
-	@Test
-	public void display()
+	@Test(groups ="smoke")
+	public void displayTest()
 	{
 		System.out.println("====Hi...====");
                 System.out.println("====Helllo...====");
@@ -13,5 +13,10 @@ public class DemoTest {
                 System.out.println("====Helllo...====");
 
 
+	}
+	@Test(groups ="regression")
+	public void HloTest()
+	{
+		System.out.println("====Helllo...====");
 	}
 }
