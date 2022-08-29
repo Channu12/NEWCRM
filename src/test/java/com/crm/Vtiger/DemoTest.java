@@ -8,5 +8,7 @@ public class DemoTest {
 	public void display()
 	{
 		System.out.println("====Hi...====");
+                System.out.println("====Helllo...====");
+
 	}
 }
